@@ -1,0 +1,13 @@
+int first_date_greater_than_second(date d1, date d2);
+int daysbwdates(date d1, date d2);
+int daysupto(date d);
+void fine(issuer irecord[], int ni);
+date aftertwoweek(date idate);
+int isleapyear(int y);
+int fineonsingle(issuer record);
+int validdate(date d);
+void addbook(books book[], int * nb, int bid, char* bname, char* bauthor, char* bgenre);
+void addissuer(issuer irecord[], books book[], int * ni, int * nb, char * iname, char*iid, int bid, int d, int m, int y);
+void addreturndate(issuer irecord[], books book[], char* iid, int *ni, int *nb, int d, int m, int y);
+void lower(char * st);
+int isnumpassed(char *n);
